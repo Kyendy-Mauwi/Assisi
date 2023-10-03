@@ -16,8 +16,8 @@ with col1:
     st.image(logo, width=100)  # Adjust the width as needed
 
 # Page title
-with col2:
-    st.title("St. Francis Youth AGM")
+# with col2:
+#     st.title("St. Francis Youth AGM")
 
 # Define the admin password
 admin_password = "Sfy2023"  # Replace with your desired password
