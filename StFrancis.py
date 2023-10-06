@@ -79,7 +79,7 @@ st.dataframe(df)
 st.header("Total Contribution Amount")
 if "Amount" in df.columns:
     total_contributions = df["Amount"].sum()
-    st.write(f"The total contribution amount is: KES{total_contributions:.2f}")
+    st.write(f"The total contribution amount is: KES {total_contributions:.2f}")
 
 # Allow all users to download the CSV file
 st.write('For copy click below⬇️')
