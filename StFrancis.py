@@ -21,6 +21,7 @@ with col1:
 
 # Define the admin password
 admin_password = "Sfy2023"  # Replace with your desired password
+st.write("login with: Sfy2023")
 
 # Create a checkbox for admin access
 is_admin = st.checkbox("Log In as Admin")
