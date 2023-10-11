@@ -21,7 +21,6 @@ with col1:
 
 # Define the admin password
 admin_password = "Sfy2023"  # Replace with your desired password
-st.write("login with: Sfy2023")
 
 # Create a checkbox for admin access
 is_admin = st.checkbox("Log In as Admin")
@@ -31,7 +30,7 @@ if is_admin:
     password_input = st.text_input("Enter the admin password:", type="password")
 
     if password_input != admin_password:
-        st.warning("Please enter the correct password to access admin privileges.")
+        st.warning("Please enter the correct password to access admin privileges. Try Sfy2023")
         is_admin = False
 
 # Define the path to the CSV file
